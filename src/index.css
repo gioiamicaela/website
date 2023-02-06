@@ -1,13 +1,38 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f3f3f3;
+  font-family: "Neue Montreal", sans-serif;
+  color: #111;
+  line-height: 1.6;
+  letter-spacing: 0;
+  font-size: 0.919444rem;
+  opacity: 1;
+  visibility: inherit;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.hero-heading {
+  font-family: "Neue Montreal", sans-serif;
+  color: #111;
+  font-size: 6.375em;
+  line-height: 1.1;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+.hero-intro-text {
+  font-size: clamp(1rem, 1.46em, 1.5rem);
+  letter-spacing: 0.02em;
+  font-family: "Neue Montreal", sans-serif;
+  color: #111;
+  line-height: 1.6;
+  width: 32em;
+  max-width: 100%;
+  min-width: 460px;
 }
