@@ -1,6 +1,7 @@
 import React from "react";
 import SwiperComponent from "../components/SwiperComponent";
 import SwiperComponentLader from "../components/SwiperComponentLader";
+import { Link } from "react-router-dom";
 
 function LandingPage() {
   const [language, setLanguage] = React.useState("en");
@@ -12,16 +13,19 @@ function LandingPage() {
           <img src="/logo.png" alt="logo" style={{ height: "5rem" }} />
         </div>
         <div className="col-6 d-flex justify-content-end align-items-center mt-5">
-          <button
-            style={{
-              borderRadius: "30px",
-              padding: "10px",
-              fontSize: "1em",
-              lineHeight: "1.2",
-            }}
-          >
-            CONTACT
-          </button>
+          <Link to="/about-me">
+            <button
+              className="contact-button"
+              style={{
+                borderRadius: "30px",
+                padding: "10px",
+                fontSize: "1em",
+                lineHeight: "1.2",
+              }}
+            >
+              ABOUT ME
+            </button>
+          </Link>
         </div>
       </div>
       <div className="row" style={{ marginTop: "20%" }}>
@@ -93,14 +97,7 @@ function LandingPage() {
       </div>
       <hr className="mb-5" />
       <div className="row mb-5">
-        <div className="col-12 d-flex justify-content-center">
-          <a className="px-2" href="https://www.linkedin.com/in/micaela-gioia/">
-            <i
-              className="fa-brands fa-linkedin fs-5"
-              style={{ color: "black" }}
-            ></i>
-          </a>
-        </div>
+        <div className="col-12 d-flex justify-content-center"></div>
       </div>
       <div className="row">
         <div className="col-12">
@@ -112,9 +109,24 @@ function LandingPage() {
       <div className="section-cta">
         <div className="row">
           <div className="col-12 d-flex justify-content-center my-5">
-            <button style={{ borderRadius: "30px", padding: "10px" }}>
-              GET IN TOUCH
-            </button>
+            <Link
+              target="_blank"
+              to="https://www.linkedin.com/in/micaela-gioia/"
+            >
+              <button style={{ borderRadius: "30px", padding: "10px" }}>
+                GET IN TOUCH{" "}
+                <Link
+                  className="px-2"
+                  target="_blank"
+                  to="https://www.linkedin.com/in/micaela-gioia/"
+                >
+                  <i
+                    className="fa-brands fa-linkedin fs-5"
+                    style={{ color: "black" }}
+                  ></i>
+                </Link>
+              </button>
+            </Link>
           </div>
         </div>
         <div class="hire-me">

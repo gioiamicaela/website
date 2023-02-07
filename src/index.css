@@ -26,6 +26,11 @@ code {
   letter-spacing: -0.02em;
 }
 
+.contact-button:focus {
+  background-color: black;
+  color: white;
+}
+
 .hero-intro-text {
   font-size: clamp(1rem, 1.46em, 1.5rem);
   letter-spacing: 0.02em;
