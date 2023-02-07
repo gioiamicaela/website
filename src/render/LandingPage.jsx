@@ -48,10 +48,34 @@ function LandingPage() {
         <h2>PROJECTS</h2>
       </div>
       <div className="row">
-        <div className="col-12 mb-2">
-          <SwiperComponent />
+        <div className="col-12 ">
+          <div className="row">
+            <div className="col-12 mt-5">
+              <h2 className="hero-description">
+                Hackflix: click on the image to go to website
+              </h2>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-12 m-2">
+              <SwiperComponent />
+            </div>
+          </div>
         </div>
-        <div className="col-12"></div>
+        <div className="col-12 ">
+          <div className="row">
+            <div className="col-12 mt-5">
+              <h2 className="hero-description">
+                Hackflix: click on the image to go to website
+              </h2>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-12 m-2">
+              <SwiperComponent />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

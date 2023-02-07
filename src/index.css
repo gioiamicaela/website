@@ -36,3 +36,26 @@ code {
   max-width: 100%;
   min-width: 460px;
 }
+
+.hero-description {
+  font-size: clamp(0.7rem, 1em, 1rem);
+  letter-spacing: 0.02em;
+  font-family: "Neue Montreal", sans-serif;
+  color: #111;
+  line-height: 1.6;
+  width: 32em;
+  max-width: 100%;
+  min-width: 460px;
+}
+
+/* target the active bullet */
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #f3f3f3;
+  opacity: 1;
+}
+
+/* target all bullets */
+.swiper-pagination-bullet {
+  background-color: #f3f3f3;
+  opacity: 1;
+}
