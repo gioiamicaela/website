@@ -1,5 +1,6 @@
 import React from "react";
 import SwiperComponent from "../components/SwiperComponent";
+import SwiperComponentLader from "../components/SwiperComponentLader";
 
 function LandingPage() {
   const [language, setLanguage] = React.useState("en");
@@ -11,7 +12,14 @@ function LandingPage() {
           <img src="/logo.png" alt="logo" style={{ height: "5rem" }} />
         </div>
         <div className="col-6 d-flex justify-content-end align-items-center mt-5">
-          <button style={{ borderRadius: "30px", padding: "10px" }}>
+          <button
+            style={{
+              borderRadius: "30px",
+              padding: "10px",
+              fontSize: "1em",
+              lineHeight: "1.2",
+            }}
+          >
             CONTACT
           </button>
         </div>
@@ -51,7 +59,10 @@ function LandingPage() {
         <div className="col-12 ">
           <div className="row">
             <div className="col-12 mt-5">
-              <h2 className="hero-description">
+              <h2
+                className="hero-description"
+                style={{ opacity: ".5", fontSize: "1em" }}
+              >
                 Hackflix: click on the image to go to website
               </h2>
             </div>
@@ -65,16 +76,49 @@ function LandingPage() {
         <div className="col-12 ">
           <div className="row">
             <div className="col-12 mt-5">
-              <h2 className="hero-description">
-                Hackflix: click on the image to go to website
+              <h2
+                className="hero-description"
+                style={{ opacity: ".5", fontSize: "1em" }}
+              >
+                Laderhack: click on the image to go to website
               </h2>
             </div>
           </div>
           <div className="row">
             <div className="col-12 m-2">
-              <SwiperComponent />
+              <SwiperComponentLader />
             </div>
           </div>
+        </div>
+      </div>
+      <hr className="mb-5" />
+      <div className="row mb-5">
+        <div className="col-12 d-flex justify-content-center">
+          <a className="px-2" href="https://www.linkedin.com/in/micaela-gioia/">
+            <i
+              className="fa-brands fa-linkedin fs-5"
+              style={{ color: "black" }}
+            ></i>
+          </a>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-12">
+          <h1 className="hire-title">
+            Looking for a Junior FullStack Developer?
+          </h1>
+        </div>
+      </div>
+      <div className="section-cta">
+        <div className="row">
+          <div className="col-12 d-flex justify-content-center my-5">
+            <button style={{ borderRadius: "30px", padding: "10px" }}>
+              GET IN TOUCH
+            </button>
+          </div>
+        </div>
+        <div class="hire-me">
+          <div class="hire-me-text">Hire Me</div>
         </div>
       </div>
     </div>

@@ -59,3 +59,41 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: #f3f3f3;
   opacity: 1;
 }
+
+.hire-title {
+  font-size: 4em;
+  line-height: 1;
+  text-align: center;
+  letter-spacing: -0.02em;
+}
+
+.section-cta {
+  position: relative;
+  overflow: hidden;
+  padding-top: 5.5em;
+  padding-bottom: 6.75em;
+}
+
+.hire-me {
+  position: absolute;
+  left: 0;
+  top: auto;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.hire-me-text {
+  color: #e9e9e9;
+  font-size: 21em;
+  line-height: 1;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1400px) {
+  .hire-me-text {
+    font-size: 15vw;
+  }
+}
