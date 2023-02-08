@@ -7,7 +7,7 @@ import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="container">
+    <div className="container w-100">
       <Header />
       <Routes>
         <Route path="/" element={<LandingPage />} />

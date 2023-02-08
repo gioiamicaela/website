@@ -6,7 +6,7 @@ function AboutMe() {
   return (
     <div className="container mb-5">
       <div className="row" style={{ marginTop: "20%" }}>
-        <div className="col-3">
+        <div className="col-sm-6 col-md-4 col-lg-3">
           <img
             style={{
               borderRadius: "100%",
@@ -18,7 +18,7 @@ function AboutMe() {
           />
           <h4 className="mb-3">REACH OUT TO ME</h4>
           <div className="row">
-            <div className="col-1">
+            <div className="col-1 col-sm-2 col-xxl-1">
               <Link
                 className="px-2"
                 target="_blank"
@@ -31,7 +31,7 @@ function AboutMe() {
                 ></i>
               </Link>
             </div>
-            <div className="col-11">
+            <div className="col-11 col-sm-9 col-xxl-11">
               <Link
                 className="px-2"
                 target="_blank"
@@ -43,7 +43,7 @@ function AboutMe() {
             </div>
           </div>
           <div className="row">
-            <div className="col-1">
+            <div className="col-1 col-sm-2 col-xxl-1">
               <Link
                 className="px-2"
                 target="_blank"
@@ -56,7 +56,7 @@ function AboutMe() {
                 ></i>
               </Link>
             </div>
-            <div className="col-11">
+            <div className="col-11 col-sm-9 col-xxl-11">
               <Link
                 className="px-2"
                 target="_blank"
@@ -69,7 +69,7 @@ function AboutMe() {
           </div>
 
           <div className="row">
-            <div className="col-1">
+            <div className="col-1 col-sm-2 col-xxl-1">
               <Link
                 className="px-2"
                 target="_blank"
@@ -81,7 +81,7 @@ function AboutMe() {
                 ></i>
               </Link>
             </div>
-            <div className="col-11">
+            <div className="col-11 col-sm-9 col-xxl-11">
               <Link
                 className="px-2"
                 target="_blank"
@@ -93,7 +93,7 @@ function AboutMe() {
             </div>
           </div>
         </div>
-        <div className="col-9 mt-5">
+        <div className="col-sm-6 col-md-8 col-lg-9 mt-5">
           <p>
             My name is Micaela Gioia, I am an accountant and in 2020 I decided
             to change my professional carreer and started studying Computing
@@ -116,7 +116,7 @@ function AboutMe() {
             I consider my self a fast learner, hard working, determined and
             objective oriented. My objective right now is to learn as much as I
             can and become the best IT professional I can possibly be. I have a
-            very good level of English. .
+            very good level of English.
           </p>
         </div>
       </div>
