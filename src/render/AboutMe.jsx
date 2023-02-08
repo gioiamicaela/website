@@ -1,6 +1,7 @@
 import React from "react";
 import foto from "./fotoMicaela.jpg";
 import { Link } from "react-router-dom";
+import ScrollToTop from "react-scroll-to-top";
 
 function AboutMe() {
   return (
@@ -120,6 +121,11 @@ function AboutMe() {
           </p>
         </div>
       </div>
+      <ScrollToTop
+        smooth
+        color={"black"}
+        style={{ backgroundColor: "rgba(255, 255, 255, 0.5)" }}
+      />
     </div>
   );
 }

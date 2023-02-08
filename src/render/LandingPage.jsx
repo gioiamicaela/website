@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Collapse from "react-bootstrap/Collapse";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
+import ScrollToTop from "react-scroll-to-top";
 
 function LandingPage() {
   const [language, setLanguage] = React.useState("en");
@@ -158,6 +159,11 @@ function LandingPage() {
           </div>
         </div>
       </div>
+      <ScrollToTop
+        smooth
+        color={"black"}
+        style={{ backgroundColor: "rgba(255, 255, 255, 0.5)" }}
+      />
     </div>
   );
 }
