@@ -30,7 +30,7 @@ function SwiperComponent() {
           }}
           pagination={true}
           modules={[EffectCube, Pagination]}
-          className="mySwiper"
+          className="mySwiper d-flex justify-content-center align-content-center"
         >
           <SwiperSlide>
             <Link to={"https://hackflix-gioia.vercel.app/"} target="_blank">
