@@ -111,8 +111,15 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 }
 
 .swiper {
-  width: 40vw;
+  width: 50vw;
   height: auto;
+}
+
+@media (max-width: 576px) {
+  .swiper {
+    width: 70vw;
+    height: auto;
+  }
 }
 
 .swiper-slide {
@@ -121,10 +128,21 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 }
 
 .swiper-slide img {
-  width: 40vw;
+  width: 50vw;
   height: auto;
   border-radius: 10px;
   background-color: azure;
+  border: solid 1px rgb(203, 201, 201);
+}
+
+@media (max-width: 576px) {
+  .swiper-slide img {
+    width: 70vw;
+    height: auto;
+    border-radius: 10px;
+    background-color: azure;
+    border: solid 1px rgb(203, 201, 201);
+  }
 }
 
 .myswiper {
