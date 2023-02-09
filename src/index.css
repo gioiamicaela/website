@@ -109,3 +109,25 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
     font-size: 15vw;
   }
 }
+
+.swiper {
+  width: 40vw;
+  height: auto;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  width: 40vw;
+  height: auto;
+  border-radius: 10px;
+  background-color: azure;
+}
+
+.myswiper {
+  width: 40vw;
+  height: 30vh;
+}

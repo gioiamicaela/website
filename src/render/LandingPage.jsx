@@ -86,7 +86,7 @@ function LandingPage() {
               </Button>
               <Collapse in={open}>
                 <div
-                  className="mt-2"
+                  className="my-3"
                   id="example-collapse-text"
                   style={{
                     opacity: ".5",
@@ -96,20 +96,21 @@ function LandingPage() {
                   }}
                 >
                   To create this project I used React, React Hooks and Redux.
-                  The data source is the API The Movie Database.
+                  The data source is the API The Movie Database. In order to be
+                  responsive I used bootstrap.
                 </div>
               </Collapse>
             </div>
           </div>
           <div className="row">
-            <div className="col-12 m-2">
+            <div className="col-12 mt-2">
               <SwiperComponent />
             </div>
           </div>
         </div>
         <div className="col-12 ">
           <div className="row">
-            <div className="col-12 mt-5">
+            <div className="col-12 mt-5 mb-3">
               <h2
                 className="hero-description"
                 style={{
@@ -135,7 +136,7 @@ function LandingPage() {
               </Button>
               <Collapse in={open}>
                 <div
-                  className="mt-2"
+                  className="my-3"
                   id="example-collapse-text"
                   style={{
                     opacity: ".5",
@@ -147,13 +148,14 @@ function LandingPage() {
                   This was the final project for the Bootcamp. We were asked to
                   create an e-commerce in three weeks in a group of four
                   teammates. The most important technologies used were React,
-                  Nodejs, Express and MongoDB.
+                  Nodejs, Express and MongoDB. In order to be responsive we used
+                  bootstrap.
                 </div>
               </Collapse>
             </div>
           </div>
           <div className="row">
-            <div className="col-12 m-2">
+            <div className="col-12 mt-2 mb-5">
               <SwiperComponentLader />
             </div>
           </div>

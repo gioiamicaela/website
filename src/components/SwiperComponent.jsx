@@ -1,116 +1,72 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import "swiper/css/effect-coverflow";
+import "swiper/css/effect-cube";
 import "swiper/css/pagination";
-import { EffectCoverflow, Pagination } from "swiper";
-import styles from "./SwiperComponent.module.css";
+import { EffectCube, Pagination } from "swiper";
 import { Link } from "react-router-dom";
-import img1 from "./hackflix/1.jpg";
-import img2 from "./hackflix/2.jpg";
-import img3 from "./hackflix/3.jpg";
-import img9 from "./hackflix/9.png";
-import img5 from "./hackflix/5.jpg";
-import img6 from "./hackflix/6.jpg";
-import img7 from "./hackflix/7.jpg";
+import img1 from "./hackflix/1.png";
+import img2 from "./hackflix/2.png";
+import img3 from "./hackflix/3.png";
+import img4 from "./hackflix/4.png";
+import img5 from "./hackflix/5.png";
+import img6 from "./hackflix/6.png";
+import img7 from "./hackflix/7.png";
 
 function SwiperComponent() {
   return (
     <>
       <div className="container">
         <Swiper
-          effect={"coverflow"}
+          effect={"cube"}
           grabCursor={true}
           centeredSlides={true}
-          slidesPerView={8}
-          coverflowEffect={{
-            rotate: 50,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
+          slidesPerView={3}
+          cubeEffect={{
+            shadow: false,
             slideShadows: false,
+            shadowOffset: 20,
+            shadowScale: 0.94,
           }}
           pagination={true}
-          modules={[EffectCoverflow, Pagination]}
+          modules={[EffectCube, Pagination]}
           className="mySwiper"
         >
-          <SwiperSlide className={styles.movieGrid}>
+          <SwiperSlide>
             <Link to={"https://hackflix-gioia.vercel.app/"} target="_blank">
-              <img
-                src={img2}
-                alt={img2}
-                className={styles.movieImage}
-                width={320}
-                height={300}
-              />
+              <img src={img1} alt={img1} />
             </Link>
           </SwiperSlide>
-          <SwiperSlide className={styles.movieGrid}>
+          <SwiperSlide>
             <Link to={"https://hackflix-gioia.vercel.app/"} target="_blank">
-              <img
-                src={img9}
-                alt={img9}
-                className={styles.movieImage}
-                width={320}
-                height={300}
-              />
+              <img src={img2} alt={img2} />
             </Link>
           </SwiperSlide>
-          <SwiperSlide className={styles.movieGrid}>
+          <SwiperSlide>
             <Link to={"https://hackflix-gioia.vercel.app/"} target="_blank">
-              <img
-                src={img3}
-                alt={img3}
-                className={styles.movieImage}
-                width={320}
-                height={300}
-              />
+              <img src={img3} alt={img3} />
             </Link>
           </SwiperSlide>
 
-          <SwiperSlide className={styles.movieGrid}>
+          <SwiperSlide>
             <Link to={"https://hackflix-gioia.vercel.app/"} target="_blank">
-              <img
-                src={img5}
-                alt={img5}
-                className={styles.movieImage}
-                wwidth={320}
-                height={300}
-              />
+              <img src={img4} alt={img4} />
             </Link>
           </SwiperSlide>
 
-          <SwiperSlide className={styles.movieGrid}>
+          <SwiperSlide>
             <Link to={"https://hackflix-gioia.vercel.app/"} target="_blank">
-              <img
-                src={img1}
-                alt={img1}
-                className={styles.movieImage}
-                width={320}
-                height={300}
-              />
+              <img src={img5} alt={img5} />
             </Link>
           </SwiperSlide>
-          <SwiperSlide className={styles.movieGrid}>
+          <SwiperSlide>
             <Link to={"https://hackflix-gioia.vercel.app/"} target="_blank">
-              <img
-                src={img7}
-                alt={img7}
-                className={styles.movieImage}
-                width={320}
-                height={300}
-              />
+              <img src={img6} alt={img6} />
             </Link>
           </SwiperSlide>
-          <SwiperSlide className={styles.movieGrid}>
+          <SwiperSlide>
             <Link to={"https://hackflix-gioia.vercel.app/"} target="_blank">
-              <img
-                src={img6}
-                alt={img6}
-                className={styles.movieImage}
-                width={320}
-                height={300}
-              />
+              <img src={img7} alt={img7} />
             </Link>
           </SwiperSlide>
         </Swiper>
