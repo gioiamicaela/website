@@ -23,7 +23,7 @@ function Header() {
                 to="/"
                 style={{
                   padding: "10px",
-                  fontSize: "1em",
+                  fontSize: "0.9vw",
                   lineHeight: "1.2",
                   marginLeft: "5px",
                   color: "black",
@@ -38,7 +38,7 @@ function Header() {
                 to="/about-me"
                 style={{
                   padding: "10px",
-                  fontSize: "1em",
+                  fontSize: "0.9vw",
                   lineHeight: "1.2",
                   marginLeft: "5px",
                   color: "black",
@@ -55,7 +55,7 @@ function Header() {
               style={{
                 borderRadius: "30px",
                 padding: "10px",
-                fontSize: "1em",
+                fontSize: "0.9vw",
                 lineHeight: "1.2",
               }}
               onClick={sendEmail}

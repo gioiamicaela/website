@@ -12,11 +12,11 @@ function LandingPage() {
 
   return (
     <div className="container">
-      <div className="row" style={{ marginTop: "20%" }}>
+      <div className="row" style={{ marginTop: "15%" }}>
         <div className="col-12">
           <h1 className="hero-heading">
             <span className="herow line-1">
-              <span className="split-words">Junior Full Stack</span>
+              <span className="split-words">Junior FullStack</span>
             </span>
             <span className="herow">
               <span className="split-words"> Developer</span>
@@ -24,8 +24,8 @@ function LandingPage() {
           </h1>
         </div>
       </div>
-      <div className="row" style={{ marginTop: "5%" }}>
-        <div className="col-6">
+      <div className="row" style={{ marginTop: "4%" }}>
+        <div className="col-12">
           <p className="hero-intro-text">
             I am a student of Computing Engineering and experienced accountant.
             I am a highly skilled professional and after more than 10 years of
@@ -60,7 +60,6 @@ function LandingPage() {
                 className="hero-description"
                 style={{
                   opacity: ".5",
-                  fontSize: "1.4em",
                   fontWeight: "400",
                   lineHeight: "1.4",
                 }}
@@ -85,7 +84,7 @@ function LandingPage() {
                     <h3
                       style={{
                         opacity: ".5",
-                        fontSize: "0.95em",
+                        fontSize: "1vw",
                         fontWeight: "400",
                         lineHeight: "1.4",
                         paddingTop: "5px",
@@ -103,7 +102,7 @@ function LandingPage() {
                   id="example-collapse-text"
                   style={{
                     opacity: ".5",
-                    fontSize: "1.0em",
+                    fontSize: "1.1vw",
                     fontWeight: "400",
                     lineHeight: "1.4",
                   }}
@@ -128,7 +127,6 @@ function LandingPage() {
                 className="hero-description"
                 style={{
                   opacity: ".5",
-                  fontSize: "1.4em",
                   fontWeight: "400",
                   lineHeight: "1.4",
                 }}
@@ -153,7 +151,7 @@ function LandingPage() {
                     <h3
                       style={{
                         opacity: ".5",
-                        fontSize: "0.95em",
+                        fontSize: "1vw",
                         fontWeight: "400",
                         lineHeight: "1.4",
                         paddingTop: "5px",
@@ -170,7 +168,7 @@ function LandingPage() {
                   id="example-collapse-text"
                   style={{
                     opacity: ".5",
-                    fontSize: "1.0em",
+                    fontSize: "1.1vw",
                     fontWeight: "400",
                     lineHeight: "1.4",
                   }}

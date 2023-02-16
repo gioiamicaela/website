@@ -4,12 +4,12 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f3f3f3;
+  background-color: #f3f3f3 !important;
   font-family: "Neue Montreal", sans-serif;
   color: #111;
   line-height: 1.6;
   letter-spacing: 0;
-  font-size: 0.919444rem;
+  font-size: 1vw;
   opacity: 1;
   visibility: inherit;
 }
@@ -19,24 +19,18 @@ body {
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 768px) {
-  body {
-    font-size: 0.5333333333333333rem;
-  }
-}
-
 .hero-heading {
   font-family: "Neue Montreal", sans-serif;
   color: #111;
-  font-size: 6.375em;
+  font-size: 6.25vw;
   line-height: 1.1;
   font-weight: 400;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.02rem;
 }
 
 .herow.line-1 {
   display: flex;
-  margin-bottom: -0.1em;
+  margin-bottom: -0.1rem;
   -webkit-box-align: end;
   align-items: flex-end;
 }
@@ -52,23 +46,23 @@ body {
 }
 
 .hero-intro-text {
-  font-size: clamp(1rem, 1.46em, 1.5rem);
-  letter-spacing: 0.02em;
+  font-size: 1.27vw;
+  letter-spacing: 0.02rem;
   font-family: "Neue Montreal", sans-serif;
   color: #111;
   line-height: 1.6;
-  width: 32em;
+  width: 50rem;
   max-width: 100%;
   min-width: 460px;
 }
 
 .hero-description {
-  /* font-size: clamp(0.7rem, 1em, 1rem); */
-  letter-spacing: 0.02em;
+  font-size: 1.2vw;
+  letter-spacing: 0.02rem;
   font-family: "Neue Montreal", sans-serif;
   color: #111;
   line-height: 1.6;
-  width: 32em;
+  width: 32rem;
   max-width: 100%;
   min-width: 460px;
 }
@@ -86,17 +80,17 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 }
 
 .hire-title {
-  font-size: 4em;
+  font-size: 4.58vw;
   line-height: 1;
   text-align: center;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.02rem;
 }
 
 .section-cta {
   position: relative;
   overflow: hidden;
   padding-top: 5.5em;
-  padding-bottom: 6.75em;
+  padding-bottom: 6.75rem;
 }
 
 .hire-me {
@@ -110,17 +104,11 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 
 .hire-me-text {
   color: #e9e9e9;
-  font-size: 20em;
+  font-size: 20vw;
   line-height: 1;
   font-weight: 500;
   text-align: center;
   text-transform: uppercase;
-}
-
-@media (max-width: 1400px) {
-  .hire-me-text {
-    font-size: 15vw;
-  }
 }
 
 .swiper {
