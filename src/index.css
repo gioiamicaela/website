@@ -19,10 +19,10 @@ body {
   box-sizing: border-box;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
+} */
 
 .hero-heading {
   font-family: "Neue Montreal", sans-serif;

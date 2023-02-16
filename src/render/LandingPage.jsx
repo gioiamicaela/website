@@ -8,7 +8,6 @@ import { Link } from "react-router-dom";
 import ScrollToTop from "react-scroll-to-top";
 
 function LandingPage() {
-  const [language, setLanguage] = React.useState("en");
   const [open, setOpen] = React.useState(false);
 
   return (
@@ -18,26 +17,15 @@ function LandingPage() {
           <h1 className="hero-heading">Junior Full Stack Developer</h1>
         </div>
       </div>
-      <did className="row" style={{ marginTop: "5%" }}>
+      <div className="row" style={{ marginTop: "5%" }}>
         <div className="col-6">
-          {language === "en" ? (
-            <p className="hero-intro-text">
-              I am a student of Computing Engineering and experienced
-              accountant. I am a highly skilled professional and after more than
-              10 years of experience working with different projects and
-              multidisciplinary teams I decided to turn my career in a different
-              direction and become a Software Developer.
-            </p>
-          ) : (
-            <p className="hero-intro-text">
-              Soy una estudiante de Licenciatura en Informática y una contadora
-              experimentada. Soy una profesional altamente calificada que, con
-              más de 10 años de experiencia trabajando en diferentes proyectos y
-              equipos multidisciplinarios, decidí realizar un giro en mi carrera
-              y tomar una dirección diferente para convertirme en una
-              Desarrolladora de Software.
-            </p>
-          )}
+          <p className="hero-intro-text">
+            I am a student of Computing Engineering and experienced accountant.
+            I am a highly skilled professional and after more than 10 years of
+            experience working with different projects and multidisciplinary
+            teams I decided to turn my career in a different direction and
+            become a Software Developer.
+          </p>
         </div>
         <Link to="/about-me">
           <button
@@ -52,7 +40,7 @@ function LandingPage() {
             ABOUT ME
           </button>
         </Link>
-      </did>
+      </div>
       <hr />
       <div className="row">
         <h2>PROJECTS</h2>
@@ -72,18 +60,36 @@ function LandingPage() {
               >
                 Hackflix: click on the image to go to website
               </h2>
-              <Button
-                onClick={() => setOpen(!open)}
-                aria-controls="example-collapse-text"
-                aria-expanded={open}
-                style={{
-                  backgroundColor: "transparent",
-                  border: "transparent",
-                  color: "black",
-                }}
-              >
-                <i className="fa-solid fa-chevron-down"></i>
-              </Button>
+              <div className="row">
+                <div className="col-12 d-flex align-items-center">
+                  <Button
+                    onClick={() => setOpen(!open)}
+                    aria-controls="example-collapse-text"
+                    aria-expanded={open}
+                    style={{
+                      backgroundColor: "transparent",
+                      border: "transparent",
+                      color: "black",
+                    }}
+                  >
+                    <i className="fa-solid fa-chevron-down"></i>
+                  </Button>
+                  {!open && (
+                    <h3
+                      style={{
+                        opacity: ".5",
+                        fontSize: "0.95em",
+                        fontWeight: "400",
+                        lineHeight: "1.4",
+                        paddingTop: "5px",
+                      }}
+                    >
+                      Read more
+                    </h3>
+                  )}
+                </div>
+              </div>
+
               <Collapse in={open}>
                 <div
                   className="my-3"
@@ -122,18 +128,35 @@ function LandingPage() {
               >
                 Laderhack: click on the image to go to website
               </h2>
-              <Button
-                onClick={() => setOpen(!open)}
-                aria-controls="example-collapse-text"
-                aria-expanded={open}
-                style={{
-                  backgroundColor: "transparent",
-                  border: "transparent",
-                  color: "black",
-                }}
-              >
-                <i className="fa-solid fa-chevron-down"></i>
-              </Button>
+              <div className="row">
+                <div className="col-12 d-flex align-items-center">
+                  <Button
+                    onClick={() => setOpen(!open)}
+                    aria-controls="example-collapse-text"
+                    aria-expanded={open}
+                    style={{
+                      backgroundColor: "transparent",
+                      border: "transparent",
+                      color: "black",
+                    }}
+                  >
+                    <i className="fa-solid fa-chevron-down"></i>
+                  </Button>
+                  {!open && (
+                    <h3
+                      style={{
+                        opacity: ".5",
+                        fontSize: "0.95em",
+                        fontWeight: "400",
+                        lineHeight: "1.4",
+                        paddingTop: "5px",
+                      }}
+                    >
+                      Read more
+                    </h3>
+                  )}
+                </div>
+              </div>
               <Collapse in={open}>
                 <div
                   className="my-3"

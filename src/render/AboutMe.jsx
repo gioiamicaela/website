@@ -26,7 +26,7 @@ function AboutMe() {
                 to="https://www.linkedin.com/in/micaela-gioia/"
               >
                 <i
-                  class="fa fa-map-marker"
+                  className="fa fa-map-marker"
                   aria-hidden="true"
                   style={{ color: "black" }}
                 ></i>
@@ -51,7 +51,7 @@ function AboutMe() {
                 to="https://www.linkedin.com/in/micaela-gioia/"
               >
                 <i
-                  class="fa fa-envelope"
+                  className="fa fa-envelope"
                   aria-hidden="true"
                   style={{ color: "black" }}
                 ></i>

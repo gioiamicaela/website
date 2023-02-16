@@ -25,16 +25,10 @@ function Footer() {
             >
               <button style={{ borderRadius: "30px", padding: "10px" }}>
                 GET IN TOUCH{" "}
-                <Link
-                  className="px-2"
-                  target="_blank"
-                  to="https://www.linkedin.com/in/micaela-gioia/"
-                >
-                  <i
-                    className="fa-brands fa-linkedin fs-5"
-                    style={{ color: "black" }}
-                  ></i>
-                </Link>
+                <i
+                  className="fa-brands fa-linkedin fs-5 px-2"
+                  style={{ color: "black" }}
+                ></i>
               </button>
             </Link>
           </div>

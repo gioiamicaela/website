@@ -21,7 +21,6 @@ function SwiperComponent() {
           effect={"cube"}
           grabCursor={true}
           centeredSlides={true}
-          slidesPerView={3}
           cubeEffect={{
             shadow: false,
             slideShadows: false,

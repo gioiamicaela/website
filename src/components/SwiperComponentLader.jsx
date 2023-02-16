@@ -8,7 +8,6 @@ import { Link } from "react-router-dom";
 import img1 from "./laderhack/1.png";
 import img2 from "./laderhack/2.png";
 import img3 from "./laderhack/3.png";
-import img4 from "./laderhack/4.png";
 import img5 from "./laderhack/5.png";
 import img6 from "./laderhack/6.png";
 import img7 from "./laderhack/7.png";
@@ -22,7 +21,6 @@ function SwiperComponentLader() {
           effect={"cube"}
           grabCursor={true}
           centeredSlides={true}
-          slidesPerView={3}
           cubeEffect={{
             shadow: false,
             slideShadows: false,
@@ -31,7 +29,7 @@ function SwiperComponentLader() {
           }}
           pagination={true}
           modules={[EffectCube, Pagination]}
-          className="mySwiper"
+          className="mySwiper d-flex justify-content-center align-content-center"
         >
           <SwiperSlide>
             <Link to={"https://laderhack.vercel.app/"} target="_blank">
@@ -64,7 +62,7 @@ function SwiperComponentLader() {
               <img src={img7} alt={img7} />
             </Link>
           </SwiperSlide>
-          <SwiperSlide c>
+          <SwiperSlide>
             <Link to={"https://laderhack.vercel.app//"} target="_blank">
               <img src={img8} alt={img8} />
             </Link>
