@@ -19,10 +19,11 @@ body {
   box-sizing: border-box;
 }
 
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-} */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 0.5333333333333333rem;
+  }
+}
 
 .hero-heading {
   font-family: "Neue Montreal", sans-serif;
@@ -31,6 +32,18 @@ body {
   line-height: 1.1;
   font-weight: 400;
   letter-spacing: -0.02em;
+}
+
+.herow.line-1 {
+  display: flex;
+  margin-bottom: -0.1em;
+  -webkit-box-align: end;
+  align-items: flex-end;
+}
+
+.herow {
+  display: block;
+  overflow: hidden;
 }
 
 .contact-button:focus {

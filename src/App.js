@@ -4,15 +4,18 @@ import LandingPage from "./render/LandingPage";
 import AboutMe from "./render/AboutMe";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import ScrollToTopLink from "./components/ScrollToTopLink";
 
 function App() {
   return (
     <div>
       <Header />
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/about-me" element={<AboutMe />} />
-      </Routes>
+      <ScrollToTopLink>
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/about-me" element={<AboutMe />} />
+        </Routes>
+      </ScrollToTopLink>
       <Footer />
     </div>
   );

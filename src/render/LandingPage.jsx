@@ -13,8 +13,15 @@ function LandingPage() {
   return (
     <div className="container">
       <div className="row" style={{ marginTop: "20%" }}>
-        <div className="col-9">
-          <h1 className="hero-heading">Junior Full Stack Developer</h1>
+        <div className="col-12">
+          <h1 className="hero-heading">
+            <span className="herow line-1">
+              <span className="split-words">Junior Full Stack</span>
+            </span>
+            <span className="herow">
+              <span className="split-words"> Developer</span>
+            </span>
+          </h1>
         </div>
       </div>
       <div className="row" style={{ marginTop: "5%" }}>
