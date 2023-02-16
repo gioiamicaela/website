@@ -9,6 +9,7 @@ import ScrollToTop from "react-scroll-to-top";
 
 function LandingPage() {
   const [open, setOpen] = React.useState(false);
+  const [openLader, setOpenLader] = React.useState(false);
 
   return (
     <div className="container">
@@ -84,7 +85,7 @@ function LandingPage() {
                     <h3
                       style={{
                         opacity: ".5",
-                        fontSize: "1vw",
+                        fontSize: "0.95em",
                         fontWeight: "400",
                         lineHeight: "1.4",
                         paddingTop: "5px",
@@ -102,7 +103,7 @@ function LandingPage() {
                   id="example-collapse-text"
                   style={{
                     opacity: ".5",
-                    fontSize: "1.1vw",
+                    fontSize: "1.0em",
                     fontWeight: "400",
                     lineHeight: "1.4",
                   }}
@@ -127,6 +128,7 @@ function LandingPage() {
                 className="hero-description"
                 style={{
                   opacity: ".5",
+                  fontSize: "1.4em",
                   fontWeight: "400",
                   lineHeight: "1.4",
                 }}
@@ -136,9 +138,9 @@ function LandingPage() {
               <div className="row">
                 <div className="col-12 d-flex align-items-center">
                   <Button
-                    onClick={() => setOpen(!open)}
+                    onClick={() => setOpenLader(!openLader)}
                     aria-controls="example-collapse-text"
-                    aria-expanded={open}
+                    aria-expanded={openLader}
                     style={{
                       backgroundColor: "transparent",
                       border: "transparent",
@@ -147,11 +149,11 @@ function LandingPage() {
                   >
                     <i className="fa-solid fa-chevron-down"></i>
                   </Button>
-                  {!open && (
+                  {!openLader && (
                     <h3
                       style={{
                         opacity: ".5",
-                        fontSize: "1vw",
+                        fontSize: "0.95em",
                         fontWeight: "400",
                         lineHeight: "1.4",
                         paddingTop: "5px",
@@ -162,13 +164,13 @@ function LandingPage() {
                   )}
                 </div>
               </div>
-              <Collapse in={open}>
+              <Collapse in={openLader}>
                 <div
                   className="my-3"
                   id="example-collapse-text"
                   style={{
                     opacity: ".5",
-                    fontSize: "1.1vw",
+                    fontSize: "1.0em",
                     fontWeight: "400",
                     lineHeight: "1.4",
                   }}
