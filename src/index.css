@@ -116,6 +116,12 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   letter-spacing: -0.02rem;
 }
 
+@media (max-width: 576px) {
+  .hire-title {
+    font-size: 3.5rem;
+  }
+}
+
 .section-cta {
   position: relative;
   overflow: hidden;
@@ -144,6 +150,9 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 @media (max-width: 1400px) {
   .hire-me-text {
     font-size: 15vw;
+  }
+  .hero-intro-text {
+    font-size: 1.3rem;
   }
 }
 
