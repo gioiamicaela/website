@@ -1,6 +1,8 @@
 body {
   width: 100vw;
+  height: auto;
   overflow-x: hidden;
+  overflow-y: scroll;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -9,7 +11,7 @@ body {
   color: #111;
   line-height: 1.6;
   letter-spacing: 0;
-  font-size: 0.919444rem;
+  font-size: 1rem;
   opacity: 1;
   visibility: inherit;
 }
@@ -22,7 +24,7 @@ body {
 .hero-heading {
   font-family: "Neue Montreal", sans-serif;
   color: #111;
-  font-size: 7rem;
+  font-size: 120px;
   line-height: 1.1;
   font-weight: 400;
   letter-spacing: -0.02rem;
@@ -46,43 +48,47 @@ body {
 }
 
 .hero-intro-text {
-  font-size: clamp(1rem, 1.46em, 1.5rem);
+  font-size: 1.45rem;
   letter-spacing: 0.02rem;
   font-family: "Neue Montreal", sans-serif;
   color: #111;
   line-height: 1.6;
   width: 50rem;
   max-width: 100%;
-  min-width: 460px;
+  min-width: 40%;
 }
 
 .hero-description {
-  /* font-size: clamp(0.7rem, 1em, 1rem); */
+  font-size: 1.5rem;
   letter-spacing: 0.02rem;
   font-family: "Neue Montreal", sans-serif;
   color: #111;
   line-height: 1.6;
   width: 32rem;
   max-width: 100%;
-  min-width: 460px;
+  min-width: 40%;
   display: inline;
 }
 
-@media screen and (max-width: 768px) {
-  body {
-    font-size: 0.5333333333333333rem;
+.split-words {
+  font-size: 120px;
+}
+
+@media (max-width: 992px) {
+  .split-words {
+    font-size: 90px;
   }
 }
 
-@media screen and (max-width: 767px) {
-  .hero-heading {
-    font-size: 7.2rem;
+@media (max-width: 768px) {
+  .split-words {
+    font-size: 73px;
   }
 }
 
-@media screen and (max-width: 767px) {
-  .hero-intro-text {
-    font-size: 1rem;
+@media (max-width: 576px) {
+  .split-words {
+    font-size: 65px;
   }
 }
 
@@ -108,7 +114,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 .section-cta {
   position: relative;
   overflow: hidden;
-  padding-top: 5.5em;
+  padding-top: 5.5rem;
   padding-bottom: 6.75rem;
 }
 
