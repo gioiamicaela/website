@@ -19,7 +19,7 @@ function LandingPage() {
             <span className="herow line-1">
               <span className="split-words">Junior FullStack</span>
             </span>
-            <span className="herow">
+            <span className="herow line-2">
               <span className="split-words"> Developer</span>
             </span>
           </h1>

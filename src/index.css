@@ -33,8 +33,13 @@ body {
 .herow.line-1 {
   display: flex;
   margin-bottom: -0.5rem;
-  -webkit-box-align: end;
   align-items: flex-end;
+}
+
+.herow.line-2 {
+  display: flex;
+  margin-top: -0.5rem;
+  align-items: flex-start;
 }
 
 .herow {
