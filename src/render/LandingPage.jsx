@@ -41,7 +41,7 @@ function LandingPage() {
             style={{
               borderRadius: "30px",
               padding: "10px",
-              fontSize: "1em",
+              fontSize: "1rem",
               lineHeight: "1.2",
             }}
           >
@@ -85,7 +85,7 @@ function LandingPage() {
                     <h3
                       style={{
                         opacity: ".5",
-                        fontSize: "0.95em",
+                        fontSize: "0.95rem",
                         fontWeight: "400",
                         lineHeight: "1.4",
                         paddingTop: "5px",
@@ -103,7 +103,7 @@ function LandingPage() {
                   id="example-collapse-text"
                   style={{
                     opacity: ".5",
-                    fontSize: "1.0em",
+                    fontSize: "1.0rem",
                     fontWeight: "400",
                     lineHeight: "1.4",
                   }}
@@ -128,7 +128,6 @@ function LandingPage() {
                 className="hero-description"
                 style={{
                   opacity: ".5",
-                  fontSize: "1.4em",
                   fontWeight: "400",
                   lineHeight: "1.4",
                 }}
@@ -153,7 +152,7 @@ function LandingPage() {
                     <h3
                       style={{
                         opacity: ".5",
-                        fontSize: "0.95em",
+                        fontSize: "0.95rem",
                         fontWeight: "400",
                         lineHeight: "1.4",
                         paddingTop: "5px",
@@ -170,7 +169,7 @@ function LandingPage() {
                   id="example-collapse-text"
                   style={{
                     opacity: ".5",
-                    fontSize: "1.0em",
+                    fontSize: "1.0rem",
                     fontWeight: "400",
                     lineHeight: "1.4",
                   }}
