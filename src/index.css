@@ -32,7 +32,7 @@ body {
 
 .herow.line-1 {
   display: flex;
-  margin-bottom: -0.1rem;
+  margin-bottom: -0.5rem;
   -webkit-box-align: end;
   align-items: flex-end;
 }
