@@ -67,40 +67,9 @@ function LandingPage() {
               >
                 Hackflix: click on the image to go to website
               </h2>
-              <div className="row">
-                <div className="col-12 d-flex align-items-center">
-                  <Button
-                    onClick={() => setOpen(!open)}
-                    aria-controls="example-collapse-text"
-                    aria-expanded={open}
-                    style={{
-                      backgroundColor: "transparent",
-                      border: "transparent",
-                      color: "black",
-                    }}
-                  >
-                    <i className="fa-solid fa-chevron-down"></i>
-                  </Button>
-                  {!open && (
-                    <h3
-                      style={{
-                        opacity: ".5",
-                        fontSize: "0.95rem",
-                        fontWeight: "400",
-                        lineHeight: "1.4",
-                        paddingTop: "5px",
-                      }}
-                    >
-                      Read more
-                    </h3>
-                  )}
-                </div>
-              </div>
-
-              <Collapse in={open}>
+              <div className="row my-3">
                 <div
-                  className="my-3"
-                  id="example-collapse-text"
+                  className="col-12 d-flex align-items-center"
                   style={{
                     opacity: ".5",
                     fontSize: "1.0rem",
@@ -112,7 +81,7 @@ function LandingPage() {
                   The data source is the API The Movie Database. In order to be
                   responsive I used bootstrap.
                 </div>
-              </Collapse>
+              </div>
             </div>
           </div>
           <div className="row">
@@ -123,7 +92,7 @@ function LandingPage() {
         </div>
         <div className="col-12 ">
           <div className="row">
-            <div className="col-12 mt-5 mb-3">
+            <div className="col-12 mt-5">
               <h2
                 className="hero-description"
                 style={{
@@ -134,39 +103,9 @@ function LandingPage() {
               >
                 Laderhack: click on the image to go to website
               </h2>
-              <div className="row">
-                <div className="col-12 d-flex align-items-center">
-                  <Button
-                    onClick={() => setOpenLader(!openLader)}
-                    aria-controls="example-collapse-text"
-                    aria-expanded={openLader}
-                    style={{
-                      backgroundColor: "transparent",
-                      border: "transparent",
-                      color: "black",
-                    }}
-                  >
-                    <i className="fa-solid fa-chevron-down"></i>
-                  </Button>
-                  {!openLader && (
-                    <h3
-                      style={{
-                        opacity: ".5",
-                        fontSize: "0.95rem",
-                        fontWeight: "400",
-                        lineHeight: "1.4",
-                        paddingTop: "5px",
-                      }}
-                    >
-                      Read more
-                    </h3>
-                  )}
-                </div>
-              </div>
-              <Collapse in={openLader}>
+              <div className="row my-3">
                 <div
-                  className="my-3"
-                  id="example-collapse-text"
+                  className="col-12 d-flex align-items-center"
                   style={{
                     opacity: ".5",
                     fontSize: "1.0rem",
@@ -180,7 +119,7 @@ function LandingPage() {
                   Nodejs, Express and MongoDB. In order to be responsive we used
                   bootstrap.
                 </div>
-              </Collapse>
+              </div>
             </div>
           </div>
           <div className="row">
